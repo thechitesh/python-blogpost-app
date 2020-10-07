@@ -14,10 +14,6 @@ def index():
 def hello():
     return '<h1>Hello, World </h2>'
 
-@app.route('/about')
-def about():
-    return "<h2> About Page </h2>"
-
 @app.route('/user/<username>')
 def profile(username):
     return '{}\'s profile'.format(escape(username))
