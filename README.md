@@ -1,11 +1,25 @@
+# setting up windown environment for python flask
+https://timmyreilly.azurewebsites.net/python-flask-windows-development-environment-setup/
+https://www.twilio.com/blog/how-run-flask-application
 
-#for dealing with Forms in flask
+# To run the project 
+- don't forget to set environment variable 
+    * on cmd  :- 
+        -> set FLASK_APP = run.py
+        -> set FLASK_DEBUG = 1 (to make debug mode active or 0 to set it off)
+        -> python3 run.py
+
+    * windows powershell
+        -> python3 run.py
+
+
+# for dealing with Forms in flask
 pip install flask-wtf
 
 #Email validator error
 pip install email_validator
 
-#Database
+# Database
 pip install flask-sqlalchemy
 
 - after installing the sqlalchemy we need to add configuration 
@@ -33,3 +47,9 @@ if we have created the models then we can create the entries in db using command
 
 To drop everything user db.drop_all()  and then if you want to very then you have to do db.create_all() and then User.query.all() etc.
 
+# To save the password securely we need a hashing algorithm, hence we will install
+-> pip install flask-bcrypt
+
+
+# install login manager
+-> pip install flask-login
