@@ -6,7 +6,7 @@ The app has different navigation bar which can take to about page and home page
 There is also a side bar introduced which will show the latest post, announcements etc
 The is under development and is prepared for learning python programming language.
 
-Follow the link :- http://127.0.0.1:5000/
+Start the app with command python run.py and follow the link :- http://127.0.0.1:5000/
 
 
 # Technical 
