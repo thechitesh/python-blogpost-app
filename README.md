@@ -1,5 +1,5 @@
 
-## About the App
+# About the App
 
 This is blog post App, where a you can register and do a login further.
 The app has different navigation bar which can take to about page and home page
@@ -9,12 +9,12 @@ The is under development and is prepared for learning python programming languag
 Follow the link :- http://127.0.0.1:5000/
 
 
-## Technical 
-# setting up windown environment for python flask
+# Technical 
+## setting up windown environment for python flask
 https://timmyreilly.azurewebsites.net/python-flask-windows-development-environment-setup/
 https://www.twilio.com/blog/how-run-flask-application
 
-# To run the project 
+## To run the project 
 - don't forget to set environment variable 
     * on cmd  :- 
         -> set FLASK_APP = run.py
@@ -25,13 +25,13 @@ https://www.twilio.com/blog/how-run-flask-application
         -> python3 run.py
 
 
-# for dealing with Forms in flask
+### for dealing with Forms in flask
 pip install flask-wtf
 
-#Email validator error
+### Email validator error
 pip install email_validator
 
-# Database
+## Database
 pip install flask-sqlalchemy
 
 - after installing the sqlalchemy we need to add configuration 
@@ -59,9 +59,9 @@ if we have created the models then we can create the entries in db using command
 
 To drop everything user db.drop_all()  and then if you want to very then you have to do db.create_all() and then User.query.all() etc.
 
-# To save the password securely we need a hashing algorithm, hence we will install
+## To save the password securely we need a hashing algorithm, hence we will install
 -> pip install flask-bcrypt
 
 
-# install login manager
+## install login manager
 -> pip install flask-login
